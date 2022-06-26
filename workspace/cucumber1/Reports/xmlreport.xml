@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="0.002947">
+<testcase classname="elearning login page" name="login with unauthorised user" time="0.00223">
+<system-out><![CDATA[Given user is on homepage...................................................skipped
+When user enter invalid username "dinesh" and "dfghjk"......................skipped
+And user click on submit button.............................................skipped
+Then validation message.....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="elearning login page" name="login with authorised user" time="0.000717">
+<skipped><![CDATA[Given user is on homepage...................................................skipped
+When user enter valid username..............................................undefined
+And user click on submit button.............................................skipped
+Then validation message occurs..............................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
